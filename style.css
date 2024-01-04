@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 120px;
+    position: fixed;
+    gap: 50px;
+    font-size: 3vh;
+    background-color: rgba(41, 122, 193, 0.342);
+  
+
+}
+#nav h4 {
+    text-decoration: none; 
+  }
+  
+  #nav h4:hover {
+    text-decoration: underline;
+  }
+  
+
+  
+
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+    margin-left: -40vh;
+}
+
+
+
+#page1 h1 {
+
+    position: relative;
+    
+}
+
+#page1 h2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(24, 32, 30);
+    margin-left: 70vh;
+    margin-right: 70vh;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    margin: 50vh 0px 0px 100vh;
+    object-fit: cover;
+
+    z-index: -1;
+    position: absolute;
+}
+
+#buttons {
+    display: flex;
+    gap: 10px;
+
+}
+
+button {
+    border: none;
+    height: 5vh;
+    width: 20vh;
+    font-family: 'Sometype Mono', monospace;
+    background-color: rgba(172, 255, 47, 0.323);
+
+}
+
+button:hover {
+    background-color: rgba(27, 4, 4, 0.129);
+}
+#socialmedia-icon{
+    margin-top: -25vh;
+    margin-left: 50vh;
+    z-index: -1;
+    position: absolute;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: -50vh 2px;
+   
+
+  }
+.fa-linkedin {
+    background: #ffffff;
+    color: rgb(19, 2, 2);
+    
+
+  }
+  .fa-instagram {
+    background: #fffbfb;
+    color: rgb(0, 0, 0);
+
+  }
+  .fa-github {
+    background: #fbfbfb;
+    color: rgb(15, 2, 2);
+  }
+ th{
+    padding: 5px;
+ }
+
+ #page2{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+    margin-left: -40vh;
+}
+#page2 img{
+    height: 40%;
+    width: 50%;
+    margin: 50vh 0px 0px 100vh;
+    object-fit: cover;
+
+    z-index: -1;
+position: relative;
+}
+
+
+
+
+
+ #page3{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+    margin-left: -40vh;
+ }
+ #page2 li{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(24, 32, 30);
+    margin-left: 80vh;
+    margin-right: 70vh;
+ }
+ .skill { 
+    background-color: rgb(116, 194, 92); 
+    color: white; 
+    padding: 1%; 
+    text-align: right; 
+    font-size: 10px; 
+    border-radius: 15px; 
+} 
+.container { 
+    background-color: rgb(192, 192, 192); 
+    width: 40%; 
+  
+    border-radius: 15px; 
+} 
+
+.html { 
+    width: 90%; 
+} 
+.js { 
+    width: 50%; 
+} 
+.sql{
+    width: 70%;
+}
+.css{
+    width: 80% ;
+}
+#page4{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+}
+#flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#flex-container > div {
+    flex: 1 0 50%; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
